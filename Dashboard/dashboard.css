@@ -173,3 +173,11 @@ ul#handles li a:before {
 #formbuttons {
     margin-bottom: 10px;
 }
+
+#lists {
+    background-color: #ffffff;
+}
+
+.community {
+    display: inline-block;
+}
