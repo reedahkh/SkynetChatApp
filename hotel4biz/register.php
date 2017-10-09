@@ -14,8 +14,9 @@ mysqli_query ($connection, "INSERT INTO users (username, email, password, phone_
 if(mysqli_affected_rows ($connection)>0){
 	header('Location: https://hotels.ng');
 }
-	else {echo "<p> There were errors with your registration";
-	echo mysqli_error($connect);
+	else {
+    echo "<p> There were errors with your registration";
+	echo mysqli_error($connection);
 
 }
 
